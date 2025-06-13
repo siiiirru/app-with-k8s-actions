@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -32,7 +32,6 @@ build/
 
 ### VS Code ###
 .vscode/
-=======
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,java,intellij,maven
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java,intellij,maven
 
@@ -261,5 +260,4 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java,intellij,maven
-application.properties
->>>>>>> 6f6cac6d81a1cbc50038a96b922ee4326dad502d
+
