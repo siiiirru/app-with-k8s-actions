@@ -17,14 +17,14 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-      - name: Make application-prod.properties
-        run: |
-          cd ./src/main
-          mkdir resources
-          cd ./resources
-          touch ./application.properties
-          echo "${{ secrets.PROPERTIES }}" > ./application.properties
-        shell: bash
+#      - name: Make application-prod.properties
+#        run: |
+#          cd ./src/main
+#          mkdir resources
+#          cd ./resources
+#          touch ./application.properties
+#          echo "${{ secrets.PROPERTIES }}" > ./application.properties
+#        shell: bash
       #application.properties없으니 테스트 스킵
       - name: Build with Maven
         run: mvn -B package -DskipTests --file pom.xml
